@@ -1,0 +1,194 @@
+Title: A Submillimeter View of Circumstellar Dust Disks in {rho} Ophiuchus 
+Authors: Andrews S.M., Williams J.P. 
+Table: Submillimeter Properties of Circumstellar Disks in {rho} Ophiuchus
+================================================================================
+Byte-by-byte Description of file: datafile1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label     Explanations
+--------------------------------------------------------------------------------
+   1- 19 A19    ---       Name      Object name
+  21- 23 A3     ---       SED       SED classification type (1)  
+  25- 26 A2     ---       SpType    Spectral type from the literature (see
+                                     Section 4.2)
+  28- 31 I4     mJy       F350      ? The 350 {mu}m flux density 
+  33- 35 I3     mJy     e_F350      ? Uncertainty in F350 (2)
+      37 A1     ---     l_F450      Limit flag on F450 (3)
+  38- 41 I4     mJy       F450      ? The 450 {mu}m flux density
+  43- 45 I3     mJy     e_F450      ? Uncertainty in F450 (2)
+      47 A1     ---     l_F850      Limit flag on F850 (3)
+  48- 51 I4     mJy       F850      ? The 850 {mu}m flux density   
+  53- 54 I2     mJy     e_F850      ? Uncertainty in F850 (2)  
+      56 A1     ---     l_F1.3      Limit flag on F1.3 (3)
+  57- 59 I3     mJy       F1.3      ? The 1.3 mm flux density
+  61- 62 I2     mJy     e_F1.3      ? Uncertainty in F1.3 (2)
+      64 A1     ---     l_Mass      Limit flag on Mass (3)
+  65- 70 F6.4   solMass   Mass      Disk mass (see section 3.1)
+      72 A1     ---     l_Sp+Index  Limit flag on Sp+Index (3)
+  73- 76 F4.2   ---       Sp+Index  ? Submillimeter continuum slope (see 
+                                     section 3.2)
+  78- 81 F4.2   ---     e_Sp+Index  ? Uncertainty in Sp+Index 
+  83- 85 A3     ---     n_Name      Individual source note(s) (4)
+--------------------------------------------------------------------------------
+Note (1): 
+    FS = Flat Spectrum; see Section 3.3 for details
+Note (2): Quoted errors are the 1{sigma} rms noise levels and do not include
+          systematic errors in the absolute flux calibration (~ 25% at 350 and
+          450{mu}m, ~ 10% at 850{mu}m, and ~ 20% at 1.3mm).
+Note (3): Upper limits are taken at the 3{sigma} confidence level.
+Note (4):
+    1 = The 1.3mm flux densities are from Andre & Montmerle (1994).  
+        The 1{sigma} rms uncertainties were typically assumed to be ~ 10mJy. 
+    2 = 800{mu}m flux densities from Jensen et al. (1996) are listed F850. 
+    3 = The 1.3mm flux densities are from Nurnberger et al. (1998).  
+    4 = The 1.3mm flux densities are from Motte et al. (1998). 
+    5 = The 1.3mm flux densities for WL 20 (S) and WSB 60 are from the 
+        interferometric survey of Andrews & Williams (2007).  
+    6 = The 1.3mm flux densities are from Stanke et al. (2006).  
+--------------------------------------------------------------------------------
+Wa Oph 1, HBC 630   III K2          < 114     <   8    < 20    <0.0005            1   
+AS 205, HBC 254     II  K5 4683 118  3280 271   891 11  450 10  0.03    1.85 0.21 1   
+Wa Oph 2, HBC 633   III K1          < 129     <   9    < 20    <0.0006            1   
+Wa Oph 3, HBC 634   III K0          < 145     <  10    < 25    <0.0006            1   
+WSB 3               III M3                    <  34            <0.002             2   
+WSB 4               III M3                             < 13    <0.003             3   
+WSB 11              II                        <  26            <0.001             2   
+L1719 B, 16191-1936 FS                                  220 10  0.04              1   
+WSB 18              III M2                    <  46            <0.003             2   
+WSB 19              II  M3                    <  78            <0.004             2   
+DoAr 16, HBC 257    II  K6          < 361        47  8 < 50     0.003  <3.21      1   
+SR 1, EL 9, GSS 9   III B2          < 154     <  11    < 50    <0.0007            1   
+SR 22, DoAr 19      II  M4          < 162        31  3 < 20     0.002  <2.60      1   
+ROXs 2, VSS 20      III M0          < 156     <  11    < 30    <0.0007            1   
+IRS 2, YLW 19       II  K3                             < 25    <0.005             1   
+IRS 7               II                                 < 40    <0.008             1   
+IRS 8               III                                < 40    <0.008             1   
+IRS 9, YLW 23       III                                < 10    <0.002             1   
+ROXs 3, HBC 636     III M0                             < 30    <0.006             1   
+IRS 10, ROXs 4      III K6                             < 28    <0.005             3   
+ROXs 5              III K7                             < 19    <0.004             3   
+SR 4, AS 206        II  K5          < 768       142  7   31  6  0.004   1.50 0.62 3   
+IRS 13, ROXs 7      III K6                             < 20    <0.004             1   
+DoAr 21, HBC 637    III K1                             < 30    <0.006             4   
+SR 3, IRS 16        III A0                             < 25    <0.005             1   
+GSS 26              II  K8            650 123   298  7  125 20  0.04    1.65 0.36 4   
+EL 18, GSS 29       II  K6                             < 10    <0.002             4   
+DoAr 24, HBC 638    II  K5                             < 30    <0.006             4   
+CRBR 12, ISO-Oph 21 I                                    85  5  0.02              4   
+DoAr 23, WSB 26     III M0                    <  77            <0.004             2   
+EL 20, VSSG 1       II              < 666       240  7   50 10  0.03    3.69 0.71 1   
+CRBR 15             I   M5                               40  5  0.008             4   
+EL 21, GSS 30       I                1403 116   222  5   90 30  0.01    2.50 0.33 4   
+LFAM 1              FS               2662 219   572  8  250 20  0.04    2.18 0.31 4   
+GY 10               III M9                             < 10    <0.002             4   
+GY 11               FS  M7                             < 10    <0.002             4   
+DoAr 24E, GSS 31    II  K1            779 121   158  6   70 20  0.008   2.32 0.43 4   
+DoAr 25, WSB 29     II  K5                      461 11  280 10  0.03    1.17 0.54 1   
+LFAM 3, GY 21       FS                                  110 10  0.02              4   
+ROXs 9A             III M0                             < 22    <0.004             3   
+EL 24, WSB 31       II  K6 5242 213  3012 216   838  8  390 10  0.2     1.99 0.22 1   
+ROXs 12             III M0                             < 19    <0.004             3   
+VSSG 27, GY 51      II                                 < 20    <0.004             4   
+ROXs 9B             III K2                             < 11    <0.002             3   
+IRS 14, GY 54       II                                 < 30    <0.006             1   
+IRS 15, GY 58       II                                 < 30    <0.006             1   
+S1, EL 25, GSS 35   III B3                             < 10    <0.002             4   
+ROXs 9C             III K4                             < 14    <0.003             3   
+GY 91               I                                   300 15  0.06              4   
+WSB 37, GY 93       II  M5                             < 25    <0.005             1   
+WL 8, GY 96         II                                 < 10    <0.002             4   
+IRS 17, WL 7        FS                                 < 30    <0.006             4   
+ROC 16, GY 101      FS                                 < 15    <0.003             4   
+EL 26, GSS 37       II  M0                    <  51      15  5  0.005  <2.88      1   
+IRS 19, VSSG 11     III M0                             < 15    <0.003             1   
+WL 12, YLW 2        I                 749 130   216  7  115 10  0.01    2.00 0.36 4   
+EL 27, GSS 39       II  K8           2737 322   678 10  300 10  0.04    2.07 0.32 1   
+ROXs 9D             III                                < 35    <0.007             3   
+WSB 38, VSS 27      III G4                             < 20    <0.004             1   
+DoAr 28, HBC 261    II  K5                             < 75    <0.01              1   
+WL 2, GY 128        FS                                   30 10  0.006             4   
+WL 18, GY 129       II  K7                               85 10  0.02              4   
+IRS 23, WL 21       III                                < 30    <0.006             4   
+CRBR 51             FS                                   70 15  0.01              4   
+SR 24, HBC 262      FS  K1 1271  32  1263 282   530  9  230 11  0.03    1.29 0.23 3   
+WL 14, GY 172       II  M4                               30 10  0.006             4   
+IRS 27, WL 22       I               < 438        70  5   40 10  0.004   1.99 0.96 4   
+WL 16, YLW 5        FS                                 <  6    <0.001             4   
+IRS 29, WL 1        FS              < 702        15  4 < 20     0.0009 <6.05      4   
+LFAM 26, GY 197     I                                   100 10  0.02              4   
+WL 17, GY 205       I               < 867       100  7   75 10  0.006   0.84 0.65 4   
+WL 10, GY 211       II  K8                             < 60    <0.01              4   
+GY 213              II                                   40 10  0.008             4   
+EL 29, WL 15        I                2024 109   408  6   95 10  0.03    2.82 0.32 4   
+SR 21, EL 30        II  G3 2761  57  1896 268   397  6   95 15  0.03    2.27 0.22 4   
+IRS 31, WL 9        II                                 < 10    <0.002             4   
+GY 224              I                                    50 10  0.01              4   
+WL 19, GY 227       II                                   30 10  0.006             4   
+WL 11, GY 229       II                                 < 10    <0.002             4   
+WSB 45, HBC 640     III M5                             < 20    <0.004             1   
+IRS 33, GY 236      II                                  105 20  0.02              4   
+WSB 46, HBC 641     II  M2                             < 20    <0.004             1   
+IRS 34, GY 239      II                                 < 20    <0.004             4   
+IRS 36, GY 241      FS                                 < 15    <0.003             4   
+WL 20, GY 240       I                 400 112   182  6   47  1  0.01    1.39 0.40 5   
+IRS 37, GY 244      II  M4          < 591        93  8 < 10     0.006   1.03 0.69 4   
+IRS 38, WL 5        III F7          < 522        80  4 < 10     0.005  <4.89      4   
+GY 245              FS                                   60  5  0.01              4   
+IRS 39, WL 4        II  M2          < 480        63  5 < 15     0.01    1.75 0.96 4   
+IRS 41, WL 3        II              < 582       115  4 < 60     0.007  <2.55      4   
+SR 12, HBC 263      III M0                    <  26    < 20    <0.001             2,4 
+IRS 42, GY 252      II                                 < 60    <0.01              4   
+WL 6, GY 254        FS                                 < 20    <0.004             4   
+VSSG 22, ROXs 23    III K6                             < 30    <0.006             1   
+WSB 49              II  M4                             < 25    <0.005             1   
+CRBR 85             II                                  150 10  0.03              4   
+YLW 16C, GY 262     II  M1                               60  5  0.03              4   
+IRS 43, YLW 15      I                1811 358   246  7   80 10  0.02    2.99 0.38 4   
+EL 31, WL 13        II  M0                             < 10    <0.002             4   
+IRS 44, GY 269      I                                    60 10  0.01              4   
+EL 32, IRS 45       II  K7                             < 50    <0.01              4   
+IRS 46, GY 274      FS                                   45 10  0.009             4   
+EL 33, IRS 47       II                                 < 20    <0.004             4   
+GY 284              II  M3                              130 10  0.02              4   
+ROXs 25, GY 292     II  M2                               30  5  0.007             4   
+ROXs 30A            III                                < 10    <0.002             3   
+IRS 48, GY 304      I               <1566       180  9   60 10  0.01    1.91 0.61 4   
+IRS 50, GY 306      III M4                             < 10    <0.002             4   
+IRS 49, GY 308      II  K8          <1041        52  5   25  5  0.003   1.71 1.10 1   
+DoAr 32, WSB 51     II  K6                             < 45    <0.009             1   
+DoAr 33, WSB 53     II  K4          < 678        79  7   40 10  0.005   1.60 0.82 1   
+WSB 52, GY 314      II  K5                               51 10  0.007             6   
+IRS 51, GY 315      II              < 678       171  6  110 10  0.01   <2.17      4   
+SR 9, AS 207        II  K5                    <  25      15  5  0.002  <1.20      1   
+EL 36, VSSG 14      II  A7                             < 10    <0.002             3   
+IRS 54, GY 378      FS                                   30 10  0.006             4   
+ROXs 31, HBC 642    III K8                    <  22    < 25    <0.001             1,2 
+SR 10, HBC 265      II  M2                             < 25    <0.005             1   
+WSB 60, YLW 58      II  M4  832  67   651 161   149  7   89  2  0.03    1.59 0.24 5   
+SR 20, HBC 643      III G7                    <  25    < 35    <0.002             1   
+SR 13, HBC 266      II  M4            740 200   118  6   60 10  0.01    2.30 0.42 1   
+WSB 63              II  M2                             < 25    <0.005             1   
+ROXs 35A            III K3                             < 29    <0.006             3   
+VSS 44, ROXs 35B    III G5                             < 19    <0.004             3   
+ROXs 39             III K6                             < 30    <0.006             1   
+DoAr 42, HBC 267    III M0                             < 30    <0.006             1   
+ROXs 42B            III M0                             < 45    <0.009             1   
+ROXs 42C            II  K6                             < 30    <0.006             1   
+ROXs 43A            II  G0                             < 35    <0.007             1   
+ROXs 43B            III K5                             < 17    <0.003             3   
+IRS 60              II                                 < 50    <0.01              1   
+DoAr 44, HBC 268    II  K3          < 414       181  6  105 11  0.01    1.28 0.59 3   
+IRS 63, L1709 B     I      6703 162  4729 199  1017  7  370 10  0.06    2.28 0.33 1   
+ROXs 45B            III                                < 19    <0.004             3   
+ROXs 45C            III K5                             < 19    <0.004             3   
+ROXs 45D            III K0                             < 19    <0.004             3   
+IRS 67, L1689 S     I                1687 207   394  9  150 10  0.02    2.28 0.33 1   
+DoAr 51, HBC 647    III M0                             < 20    <0.004             1   
+IRS 69              II                                 < 75    <0.01              1   
+DoAr 52, HBC 648    II  M2                             < 55    <0.01              1   
+RNO 90, HBC 649     II  G5            557  83   162  4   25  5  0.005   2.40 0.43 1   
+RNO 91, HBC 650     FS  M1           1524  87   365  9   90 10  0.02    2.64 0.32 1   
+EL 49               II                                   58  5  0.01              3   
+Wa Oph 4, HBC 652   II  K4                             < 13    <0.003             1   
+Wa Oph 6, HBC 653   II  K6            979 297   379  7  130 10  0.08    2.07 0.40 1   
+Wa Oph 5, HBC 654   II  M2                             < 25    <0.005             1   
+AS 209, HBC 270     II  K5 3000  72  1915 206   551 10  300 10  0.05    1.80 0.22 1   
